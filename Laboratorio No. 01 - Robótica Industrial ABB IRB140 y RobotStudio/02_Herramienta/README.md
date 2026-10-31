@@ -6,7 +6,7 @@ En esta carpeta se incluirá la información relacionada con la herramienta dise
 Aquí se incluirán:
 
 * **Diseño de la herramienta:** Porta-marcador adaptado al *flange* del robot ABB IRB 140.
-  ### 🛠️ Archivos CAD y Modelos 3D
+  ### Archivos CAD y Modelos 3D
 
 * 📐 **Acople del marcador (Pieza 1):** [`Acople_marcador_Pieza1.step`](./Acople_marcador_Pieza1.step)
 * 📐 **Tubo del marcador:** [`Tubo_marcador.step`](./Tubo_marcador.step)
