@@ -54,7 +54,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 1
 <div align="center">
-  <img src="./assets/integrantes/integrante1.jepg" alt="Foto integrante 1" style="border-radius: 50%; width: 180px;"><br>
+  <img width="1086" height="1448" alt="WhatsApp Image 2026-10-16 at 7 11 31 PM" src="https://github.com/user-attachments/assets/8c99615f-270d-472d-8caf-6ac2c94383d1" />
 </div>
 
 - **Nombre completo:** Sharon Michel Lobo Vergara
