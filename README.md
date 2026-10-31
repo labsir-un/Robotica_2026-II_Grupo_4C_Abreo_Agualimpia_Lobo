@@ -54,7 +54,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 1
 <div align="center">
-  <img width="350" alt="WhatsApp Image 2026-10-16 at 7 11 31 PM" src="https://github.com/user-attachments/assets/8c99615f-270d-472d-8caf-6ac2c94383d1" />
+  <img width="350" alt="Integrante_Sharon" src="https://github.com/user-attachments/assets/b9cfa343-a8df-4fe5-9bd9-cf38ca664d2a" />
 </div>
 
 - **Nombre completo:** Sharon Michel Lobo Vergara
@@ -70,7 +70,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 2
 <div align="center">
-  <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%; width: 180px;"><br>
+  <img width="295" height="531" alt="DSC_0526 (2) JPG" src="https://github.com/user-attachments/assets/2c185a5d-61dd-4dd7-80c5-996b33391ed4" />
 </div>
 
 - **Nombre completo:** Nombre Apellido
@@ -86,7 +86,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 3
 <div align="center">
-  <img src="./assets/integrantes/integrante3.jpg" alt="Foto integrante 3" style="border-radius: 50%; width: 180px;"><br>
+  <img width="300" alt="image" src="https://github.com/user-attachments/assets/a4e9f086-b1f9-4ebf-8004-60f4644bbeef" />
 </div>
 
 - **Nombre completo:** Nombre Apellido
