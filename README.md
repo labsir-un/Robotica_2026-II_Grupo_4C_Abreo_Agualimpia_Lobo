@@ -76,7 +76,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 - **Nombre completo:** Nombre Apellido
 - **Carrera:** Ingeniería Mecatrónica
 - **Correo institucional:** nombre@unal.edu.co
-- **Usuario de GitHub:** [usuariogithub](https://github.com/usuariogithub)
+- **Usuario de GitHub:** https://github.com/usuariogithub
 - **Rol en el equipo:** Ej. Modelado, programación, control
 - **Intereses:** Manipulación, ROS 2, control de robots
 - **Descripción breve:**  
