@@ -73,14 +73,14 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
   <img width="295" height="531" alt="DSC_0526 (2) JPG" src="https://github.com/user-attachments/assets/2c185a5d-61dd-4dd7-80c5-996b33391ed4" />
 </div>
 
-- **Nombre completo:** Nombre Apellido
-- **Carrera:** Ingeniería Mecatrónica
-- **Correo institucional:** nombre@unal.edu.co
-- **Usuario de GitHub:** https://github.com/usuariogithub
-- **Rol en el equipo:** Ej. Modelado, programación, control
-- **Intereses:** Manipulación, ROS 2, control de robots
-- **Descripción breve:**  
-  Escribe aquí una breve presentación personal y académica del integrante.
+- *Nombre completo:* Cristian Esteban Agualimpia Torres
+- *Carrera:* Ingeniería Mecatrónica
+- *Correo institucional:* cagualimpia@unal.edu.co
+- *Usuario de GitHub:* [cristian-agualimpia](https://github.com/cristian-agualimpia)
+- *Rol en el equipo:* Modelado y adaptación de elementos mecánicos, gestión documental y apoyo en programación
+- *Intereses:* Inteligencia Artificial, robótica móvil, maquinaria CNC
+- *Descripción breve:*  
+Estudiante de 8.º semestre de Ingeniería Mecatrónica que concibe la disciplina como un eje articulador para integrar diversas áreas del conocimiento. Apasionado por la educación, la pedagogía tecnológica y la divulgación del conocimiento, combinando competencias técnicas de desarrollo con habilidades de liderazgo y gestión de comunidades académicas. Soy parte de la rama IEEE UNAL y actualmente soy presidente de su capítulo de Robótica y Automatización, el cual me ha aportado en mi desarrollo profesional de una forma transversal, viendo el impacto social de la mecatrónica en comunidades como colegios y fundaciones. Así mismo he podido liderar eventos de gran envergadura como el Torneo UN Robot y he participado en el desarrollo de proyectos como máquinas CNC.  
 
 ---
 
@@ -89,12 +89,11 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
   <img width="300" alt="image" src="https://github.com/user-attachments/assets/a4e9f086-b1f9-4ebf-8004-60f4644bbeef" />
 </div>
 
-- **Nombre completo:** Nombre Apellido
-- **Carrera:** Ingeniería Mecatrónica
-- **Correo institucional:** nombre@unal.edu.co
-- **Usuario de GitHub:** [usuariogithub](https://github.com/usuariogithub)
-- **Rol en el equipo:** Ej. Documentación, pruebas, simulación
-- **Intereses:** Robótica industrial, sistemas autónomos, IA
-- **Descripción breve:**  
-  Escribe aquí una breve presentación personal y académica del integrante.
-
+- *Nombre completo:* Fabián Stiven Abreo Cubides
+- *Carrera:* Ingeniería Mecatrónica
+- *Correo institucional:* fabreo@unal.edu.co
+- *Usuario de GitHub:* [abreo12](https://github.com/abreo12)
+- *Rol en el equipo:* Ajuste y construcción de prototipos, documentación e integración física.
+- *Intereses:* Manufactura Aditiva, automatización, robótica industrial
+- *Descripción breve:*  
+  Perfil orientado al trabajo detallado y a la resolución práctica de requerimientos técnicos. Cuenta con un interés particular en áreas como la electrónica, la fabricación 3D y la implementación de herramientas tecnológicas para la creación de bots de respuesta automática.
