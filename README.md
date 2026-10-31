@@ -60,11 +60,11 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 - **Nombre completo:** Sharon Michel Lobo Vergara
 - **Carrera:** Ingeniería Mecatrónica
 - **Correo institucional:** slobo@unal.edu.co
-- **Usuario de GitHub:** [usuariogithub](https://github.com/usuariogithub)
-- **Rol en el equipo:** Programación, simulación
-- **Intereses:** Robótica móvil, robótica industrial, control de robots, automatización
+- **Usuario de GitHub:** [usuariogithub](https://github.com/LobitaSM)
+- **Rol en el equipo:** Desarrollo de la programación del robot, simulación y validación del sistema, integración de la banda transportadora, realización de pruebas de funcionamiento, y apoyo en la documentación y organización del proyecto.
+- **Intereses:** Robótica móvil, robótica industrial, robótica humanoide, control de robots, cinemática de robots, robots inteligentes, sistemas autónomos, Machine Learning, automatización industrial, programación, diseño y modelado 3D e impresión 3D.
 - **Descripción breve:**  
-  Escribe aquí una breve presentación personal y académica del integrante.
+  Estudiante de Ingeniería Mecatrónica de la Universidad Nacional de Colombia, interesada en el desarrollo de sistemas mecatrónicos y especialmente en el área de la robótica. Durante mi formación académica he participado en proyectos como el diseño y construcción de un banco de caracterización y control de motores DC, el desarrollo de un pastillero digital programable mediante FPGA y la clasificación de imágenes mediante Machine Learning, entre muchos otros. Estas experiencias me han permitido trabajar con programación, diseño y modelado, simulación y sistemas de control, además de conocer diferentes áreas de la carrera y aplicar los conocimientos adquiridos en proyectos prácticos. Me considero una persona curiosa, responsable y con disposición para aprender, y disfruto enfrentar nuevos retos, trabajar en equipo y seguir aprendiendo a través de proyectos.
 
 ---
 
