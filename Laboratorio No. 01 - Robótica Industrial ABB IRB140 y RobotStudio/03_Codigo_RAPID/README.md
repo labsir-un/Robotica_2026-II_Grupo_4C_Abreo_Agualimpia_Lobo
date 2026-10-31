@@ -11,52 +11,44 @@ El archivo principal es **`Codigo_Completo_RAPID.mod`**, donde se encuentra inte
 El procedimiento `main` permanece ejecutándose continuamente mediante un ciclo `WHILE TRUE`. Dependiendo de la entrada digital que se active, el robot ejecuta una de las tres funciones principales: **ciclo automático de decoración, mantenimiento o Farmear Aura**.
 
 ```rapid
-PROC main()
-    WHILE TRUE DO
-        IF DI_01 = 1 THEN
-            ConveyorStop;
-            ResetTesters;
-            HomeRobot;
-
-            ConveyorForward;
-            WaitTime 4.8;
-            ConveyorStop;
-
-            WaitTime 3;
-            Set DO_01;
-            Nombres;
-            Reset DO_01;
-
-            HomeRobot;
-            ConveyorForward;
-            WaitTime 4;
-            ConveyorStop; 
-
-        ELSEIF DI_02 = 1 THEN
-            ConveyorStop;
-            Reset DO_01;
-            Reset DO_03;
-            PoseMantenimiento;
-            Set DO_02;
-
-        ELSEIF DI_03 = 1 THEN
-            ConveyorStop;
-            ResetTesters;
-            Set DO_03;
-
-            FarmearAura;
-            Reset DO_03;
-            HomeRobot;
-
-            WaitTime 3;
-            ConveyorBackward;
-            WaitTime 8;
-            ConveyorStop;
-        ENDIF
-
-        WaitTime 0.1;
-    ENDWHILE
-ENDPROC
+    PROC main()
+        WHILE TRUE DO
+            IF DI_01 = 1 THEN
+                ConveyorStop;
+                ResetTesters;
+                HomeRobot;
+                ConveyorForward;
+                WaitTime 4.8;
+                ConveyorStop;
+                WaitTime 3;
+                Set DO_01;
+                Nombres;
+                Reset DO_01;
+                HomeRobot;
+                ConveyorForward;
+                WaitTime 4;
+                ConveyorStop; 
+            ELSEIF DI_02 = 1 THEN
+                ConveyorStop;
+                Reset DO_01;
+                Reset DO_03;
+                PoseMantenimiento;
+                Set DO_02;
+            ELSEIF DI_03 = 1 THEN
+                ConveyorStop;
+                ResetTesters;
+                Set DO_03;
+                FarmearAura;
+                Reset DO_03;
+                HomeRobot;
+                WaitTime 3;
+                ConveyorBackward;
+                WaitTime 8;
+                ConveyorStop;
+            ENDIF
+            WaitTime 0.1;
+        ENDWHILE
+    ENDPROC
 ```
 
 ### Funcionamiento
