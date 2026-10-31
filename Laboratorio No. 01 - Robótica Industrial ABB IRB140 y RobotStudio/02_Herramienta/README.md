@@ -10,12 +10,6 @@ Aquí se incluirán:
 * 📐 **Acople del marcador (Pieza 1):** [`Acople_marcador_Pieza1.step`](./Acople_marcador_Pieza1.step)
 * 📐 **Tubo del marcador:** [`Tubo_marcador.step`](./Tubo_marcador.step)
 * 📦 **Modelo para RobotStudio:** [`HERRAMIENTA_PARA_SIMULACION.sat`](./HERRAMIENTA_PARA_SIMULACION.sat)
- #### 📸 Vista Previa del Modelo CAD de la herramienta
-<div align="center">
-  <img src="./Herramienta.jpeg" alt="Herramienta" width="320" height="240" />
-  </div>
-
-
 #### 📸 Vista Previa del Modelo CAD de la herramienta
 
 <div align="center">
@@ -26,6 +20,12 @@ Aquí se incluirán:
 
 <div align="center">
   <img src="./herramienta.gif" alt="Animación de la herramienta" width="500" />
+</div>
+
+
+ #### 📸 Vista Previa del Modelo CAD del pastel
+<div align="center">
+  <img src="./Pastel.jpeg" alt="Base del Pastel" width="320" height="240" />
 </div>
 
 ---
