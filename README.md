@@ -36,7 +36,7 @@
 
 ## Descripción
 
-Este repositorio corresponde al desarrollo de las actividades del curso de **Robótica 2026-I**.  
+Este repositorio corresponde al desarrollo de las actividades del curso de **Robótica 2026-II**.  
 Aquí se documentan los laboratorios, avances, resultados y la presentación de los integrantes del equipo.
 
 ---
