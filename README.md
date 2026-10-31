@@ -12,8 +12,8 @@
 <h2>Profesores: <br>Pedro Fabián Cárdenas Herrera <br> Manuel Felipe Carranza Montenegro</h2>
 
 <h4>Sharon Michel Lobo Vergara<br>
-    Nombre Integrante 2<br>
-    Nombre Integrante 3</h4>
+    Cristian Esteban Agualimpia Torres<br>
+    Fabián Stiven Abreo Cubides</h4>
 
 <p>
   <img alt="Ubuntu 24.04 LTS" src="https://img.shields.io/badge/Ubuntu-24.04%20LTS-E95420?logo=ubuntu&logoColor=white">
@@ -70,7 +70,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 2
 <div align="center">
-  <img width="295" height="531" alt="DSC_0526 (2) JPG" src="https://github.com/user-attachments/assets/2c185a5d-61dd-4dd7-80c5-996b33391ed4" />
+  <img width="280" alt="DSC_0526 (2) JPG" src="https://github.com/user-attachments/assets/2c185a5d-61dd-4dd7-80c5-996b33391ed4" />
 </div>
 
 - *Nombre completo:* Cristian Esteban Agualimpia Torres
@@ -86,7 +86,7 @@ Estudiante de 8.º semestre de Ingeniería Mecatrónica que concibe la disciplin
 
 ### Integrante 3
 <div align="center">
-  <img width="300" alt="image" src="https://github.com/user-attachments/assets/a4e9f086-b1f9-4ebf-8004-60f4644bbeef" />
+  <img width="290" alt="image" src="https://github.com/user-attachments/assets/a4e9f086-b1f9-4ebf-8004-60f4644bbeef" />
 </div>
 
 - *Nombre completo:* Fabián Stiven Abreo Cubides
