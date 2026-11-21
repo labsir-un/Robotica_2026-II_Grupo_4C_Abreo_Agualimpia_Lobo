@@ -61,8 +61,20 @@ SECOND HOME POS funciona como una segunda posición de referencia del robot y pu
 
 
 
-## 3. Procedimiento detallado para realizar movimientos manuales, especificando cómo cambiar entre modos de operación (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
+## 3. Procedimiento detallado para realizar movimientos manuales
 
+Para realizar los movimientos manuales del Motoman MH6 se utilizó el teach pendant. El procedimiento realizado fue el siguiente:
+
+1. Se coloca el controlador en modo `TEACH`.
+2. Se libera la parada de emergencia.
+3. Se presiona `SERVO ON READY` para habilitar el movimiento del robot.
+4. Se ajusta el nivel de velocidad a `FAST`.
+5. Se selecciona el modo de movimiento que se desea utilizar.
+6. Para el movimiento por articulaciones, se seleccionan los ejes correspondientes y se utilizan las teclas de movimiento para desplazar cada articulación en el sentido deseado.
+7. Para realizar movimientos cartesianos, se cambia al modo cartesiano y se seleccionan los ejes X, Y o Z.
+8. Para realizar traslaciones, se utilizan las teclas correspondientes a `X+`, `X-`, `Y+`, `Y-`, `Z+` y `Z-`.
+9. Para realizar rotaciones, se utilizan los movimientos correspondientes a la orientación alrededor de los ejes X, Y y Z.
+10. El movimiento se detiene al dejar de presionar la tecla correspondiente.
 
 
 
