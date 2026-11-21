@@ -141,5 +141,22 @@ flowchart TD
 ```
 
 
+## 8. Plano de planta de la ubicación de cada uno de los elementos
+
+El plano de planta muestra la distribución de los elementos utilizados durante la práctica. Se debe indicar la ubicación del manipulador Motoman MH6, el riel lineal, el eje rotativo externo, el controlador DX100 y el computador desde el cual se realizó la programación y comunicación mediante RoboDK.
+
+![Plano de planta de la estación de trabajo](imagenes/plano_planta.png)
 
 
+
+9. Código desarrollado en RoboDK para ejecutar una trayectoria polar
+
+El código desarrollado para generar y ejecutar la trayectoria polar en RoboDK se encuentra como anexo dentro del repositorio.
+
+
+
+## 10. Video de simulación en RoboDK y evidencia de implementación física
+
+En el siguiente video se muestra la simulación de la trayectoria polar en RoboDK y posteriormente su ejecución de forma física en el manipulador Motoman MH6, controlado desde el PC.
+
+[Ver video de simulación e implementación física](https://youtu.be/kaP7QAoW2f0)
