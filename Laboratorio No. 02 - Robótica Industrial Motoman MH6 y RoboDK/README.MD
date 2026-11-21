@@ -61,20 +61,64 @@ SECOND HOME POS funciona como una segunda posición de referencia del robot y pu
 
 
 
-## 3. Procedimiento detallado para realizar movimientos manuales
+## 3. Procedimiento detallado para realizar movimientos manuales, especificando cómo cambiar entre modos de operación (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z
 
-Para realizar los movimientos manuales del Motoman MH6 se utilizó el teach pendant. El procedimiento realizado fue el siguiente:
+Para realizar los movimientos manuales del Motoman MH6 desde el teach pendant del controlador DX100, primero se debe girar el selector de modo (MODE) a la posición TEACH, liberar el botón de paro de emergencia, presionar la tecla SERVO ON READY y mantener apretado suavemente el interruptor trasero Enable switch en su posición intermedia hasta que la luz SERVO ON quede encendida fija.
 
-1. Se coloca el controlador en modo `TEACH`.
-2. Se libera la parada de emergencia.
-3. Se presiona `SERVO ON READY` para habilitar el movimiento del robot.
-4. Se ajusta el nivel de velocidad a `FAST`.
-5. Se selecciona el modo de movimiento que se desea utilizar.
-6. Para el movimiento por articulaciones, se seleccionan los ejes correspondientes y se utilizan las teclas de movimiento para desplazar cada articulación en el sentido deseado.
-7. Para realizar movimientos cartesianos, se cambia al modo cartesiano y se seleccionan los ejes X, Y o Z.
-8. Para realizar traslaciones, se utilizan las teclas correspondientes a `X+`, `X-`, `Y+`, `Y-`, `Z+` y `Z-`.
-9. Para realizar rotaciones, se utilizan los movimientos correspondientes a la orientación alrededor de los ejes X, Y y Z.
-10. El movimiento se detiene al dejar de presionar la tecla correspondiente.
+Una vez energizados los servomotores, se presiona la tecla COORD para alternar entre los modos de movimiento, verificando en el icono de la pantalla el cambio entre el modo articular (Joint) y el modo cartesiano (Cartesian).
+
+En el modo Joint, manteniendo presionado el Enable switch y pulsando de forma continua las teclas de ejes, cada par de botones mueve una articulación de forma independiente hasta que se suelta la tecla. En el bloque izquierdo, X-/S- y X+/S+ giran la base (eje S), Y-/L- y Y+/L+ mueven el hombro (eje L) y Z-/U- y Z+/U+ accionan el codo (eje U). En el bloque derecho, X-/R- y X+/R+ rotan el antebrazo (eje R), Y-/B- y Y+/B+ flexionan la muñeca (eje B) y Z-/T- y Z+/T+ giran la brida (eje T).
+
+Al cambiar al modo Cartesian con la tecla COORD, los dos bloques de teclas dividen su función entre desplazamientos lineales y giros del efector final respecto a la base. Los botones del bloque izquierdo (X-/X+, Y-/Y+ y Z-/Z+) realizan las traslaciones a lo largo de los ejes X, Y y Z, mientras que los botones del bloque derecho (X-/X+, Y-/Y+ y Z-/Z+) ejecutan las rotaciones de la herramienta alrededor de esos mismos ejes X, Y y Z.
+
+
+
+## 4. Manejo de velocidad en movimientos manuales
+
+En la página 44 del manual proporcionado para el curso, se explica cómo controlar la rapidez con la que se mueve el brazo robótico o manipulador. Básicamente, cuando presionamos los botones de avance o retroceso, el robot se va a mover a la velocidad que tengamos configurada en ese instante. Si tenemos dudas de cuál es esa velocidad, solo tenemos que mirar la pantalla de nuestra consola de programación donde siempre nos va a aparecer indicada.   
+
+Para cambiar estas velocidades, usamos principalmente dos botones: uno para ir más rápido y otro para ir más lento. Si presionamos el botón de rápido repetidas veces, la velocidad va a ir subiendo paso a paso desde el nivel más bajo llamado "INCH" (pulgadas), pasando por lento y medio, hasta llegar al nivel rápido. Por el contrario, si usamos el botón de lento, la velocidad va a ir bajando en reversa desde el nivel rápido hasta llegar de nuevo al de "INCH".
+
+Además de esto, el manual nos da un par de notas importantes a tener en cuenta en la parte de abajo. La primera es que si usamos los botones de avance o retroceso normales, el robot se va a mover en la velocidad lenta por defecto, incluso si lo teníamos puesto en el nivel más bajo de "INCH". La segunda nota es que hay un botón especial de alta velocidad que nos permite mover el robot muy rápido, pero este botón solo funciona cuando lo movemos hacia adelante y no nos va a servir de nada si intentamos moverlo hacia atrás.
+
+
+
+
+
+## 5. Descripción de las principales funcionalidades de RoboDK, explicando cómo se comunica con el manipulador Motoman y qué procesos realiza para ejecutar movimientos
+
+RoboDK es un software que permite modelar, programar y simular robots industriales. En la práctica se utilizó para crear la trayectoria del robot, comprobarla primero de forma virtual y posteriormente enviarla al manipulador Motoman para realizarla físicamente.
+
+Entre sus principales funcionalidades se encuentran la simulación del robot, la creación y modificación de trayectorias, la programación de movimientos y la conexión con el robot para realizar la ejecución desde el computador.
+
+Para mover el Motoman, RoboDK establece una comunicación entre el computador y el controlador del robot. Desde el programa se envían las instrucciones de movimiento al manipulador, permitiendo que la trayectoria programada en RoboDK sea ejecutada por el robot físico.
+
+El proceso utilizado en la práctica fue:
+
+1. Seleccionar y configurar el manipulador Motoman en RoboDK.
+2. Crear la trayectoria que debe seguir el robot.
+3. Simular la trayectoria en RoboDK para comprobar los movimientos.
+4. Establecer la comunicación entre el computador y el controlador del Motoman.
+5. Enviar las instrucciones de movimiento desde RoboDK.
+6. Ejecutar la trayectoria en el manipulador físico.
+
+
+
+## 6. Análisis comparativo entre RoboDK y RobotStudio, destacando ventajas, limitaciones y aplicaciones de cada herramienta
+
+| Aspecto | RoboDK | RobotStudio |
+|---|---|---|
+| Función principal | Simular y programar robots industriales. | Simular y programar robots ABB. |
+| Compatibilidad | Permite trabajar con robots de diferentes fabricantes, como Motoman y ABB. | Está principalmente orientado a robots ABB. |
+| Simulación | Permite probar las trayectorias antes de llevarlas al robot. | Permite simular el robot y la celda de trabajo antes de realizar el montaje físico. |
+| Programación | Permite crear programas y trayectorias para diferentes robots. | Permite programar robots ABB y trabajar con sus herramientas de simulación. |
+| Ventajas | Es fácil de usar y permite trabajar con diferentes marcas de robots. | Tiene herramientas específicas para los robots ABB y permite trabajar con sus sistemas de programación. |
+| Limitaciones | Algunas funciones dependen del robot y de la conexión utilizada. | Está más limitado a robots y sistemas ABB. |
+| Aplicaciones | Simulación, programación y generación de trayectorias para robots industriales. | Simulación, programación y diseño de celdas de trabajo con robots ABB. |
+
+En esta práctica usamos RoboDK porque el robot utilizado fue el Motoman MH6. Con este programa se hizo la trayectoria polar, primero se probó en la simulación y después se realizó con el robot físico. RobotStudio se usa principalmente cuando se trabaja con robots ABB.
+
+
 
 
 
