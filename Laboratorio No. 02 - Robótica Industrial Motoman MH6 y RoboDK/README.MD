@@ -120,7 +120,25 @@ En esta práctica usamos RoboDK porque el robot utilizado fue el Motoman MH6. Co
 
 
 
+## 7. Diagrama de flujo de acciones del robot
 
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Configurar RoboDK]
+    B --> C[Seleccionar el Motoman MH6]
+    C --> D[Configurar la estación de trabajo]
+    D --> E[Crear la trayectoria polar]
+    E --> F[Agregar los nombres: Sharon, Esteban y Fabián]
+    F --> G[Simular la trayectoria en RoboDK]
+    G --> H{¿La trayectoria funciona correctamente?}
+    H -- No --> I[Corregir la trayectoria]
+    I --> G
+    H -- Sí --> J[Establecer comunicación entre RoboDK y el Motoman]
+    J --> K[Enviar la trayectoria al controlador]
+    K --> L[Ejecutar la trayectoria en el Motoman MH6]
+    L --> M[Verificar el movimiento del robot]
+    M --> N[Fin]
+```
 
 
 
