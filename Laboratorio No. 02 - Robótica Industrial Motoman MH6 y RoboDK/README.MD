@@ -17,6 +17,8 @@
 | Masa aproximada del manipulador | 130 kg | 98 kg |
 | Estructura | Robot articulado vertical de 6 ejes con dos ejes externos en la estación | Robot articulado de 6 ejes |
 
+
+
 ## 2. Descripción de las configuraciones home1 y home2 del Motoman MH6
 
 Durante la práctica se identificaron dos posiciones de referencia del robot: `WORK HOME POSITION` y `SECOND HOME POS`.
@@ -56,3 +58,11 @@ La segunda posición aparece como `SECOND HOME POS`. En esta pantalla se muestra
 Para realizar el trabajo del robot, la posición más útil es `WORK HOME POSITION`, ya que corresponde a la posición de trabajo establecida para el manipulador. Esta posición sirve como referencia para realizar las actividades y movimientos de la práctica.
 
 `SECOND HOME POS` funciona como una segunda posición de referencia del robot y puede utilizarse para llevarlo a una configuración diferente.
+
+
+
+
+
+
+
+
