@@ -21,11 +21,11 @@
 
 ## 2. Descripción de las configuraciones home1 y home2 del Motoman MH6
 
-Durante la práctica se identificaron dos posiciones de referencia del robot: `WORK HOME POSITION` y `SECOND HOME POS`.
+Durante la práctica se identificaron dos posiciones de referencia del robot: WORK HOME POSITION y SECOND HOME POS.
 
 ### Home1 – WORK HOME POSITION
 
-En el teach pendant, esta posición aparece como `WORK HOME POSITION`. Allí se muestran las seis articulaciones del robot: S, L, U, R, B y T. También aparecen las columnas `ORIGIN` y `CURRENT`, que permiten comparar la posición de referencia con la posición actual del robot.
+En el teach pendant, esta posición aparece como `WORK HOME POSITION`. Allí se muestran las seis articulaciones del robot: S, L, U, R, B y T. También aparecen las columnas ORIGIN y CURRENT, que permiten comparar la posición de referencia con la posición actual del robot.
 
 Los valores observados fueron:
 
@@ -40,9 +40,9 @@ Los valores observados fueron:
 
 ### Home2 – SECOND HOME POS
 
-La segunda posición aparece como `SECOND HOME POS`. En esta pantalla se muestran los valores `SPECIFIED`, `CURRENT` y `DIFFERENCE`.
+La segunda posición aparece como `SECOND HOME POS`. En esta pantalla se muestran los valores SPECIFIED, CURRENT y DIFFERENCE.
 
-`SPECIFIED` corresponde a la posición guardada para este Home, `CURRENT` muestra la posición en la que se encontraba el robot y `DIFFERENCE` muestra la diferencia entre ambas. En la fotografía, todas las diferencias son 0.
+SPECIFIED corresponde a la posición guardada para este Home, CURRENT muestra la posición en la que se encontraba el robot y DIFFERENCE muestra la diferencia entre ambas. En la fotografía, todas las diferencias son 0.
 
 | Articulación | SPECIFIED | CURRENT | DIFFERENCE |
 |---|---:|---:|---:|
@@ -55,10 +55,13 @@ La segunda posición aparece como `SECOND HOME POS`. En esta pantalla se muestra
 
 ### ¿Cuál posición es mejor?
 
-Para realizar el trabajo del robot, la posición más útil es `WORK HOME POSITION`, ya que corresponde a la posición de trabajo establecida para el manipulador. Esta posición sirve como referencia para realizar las actividades y movimientos de la práctica.
+Para realizar el trabajo del robot, la posición más útil es WORK HOME POSITION, ya que corresponde a la posición de trabajo establecida para el manipulador. Esta posición sirve como referencia para realizar las actividades y movimientos de la práctica.
 
-`SECOND HOME POS` funciona como una segunda posición de referencia del robot y puede utilizarse para llevarlo a una configuración diferente.
+SECOND HOME POS funciona como una segunda posición de referencia del robot y puede utilizarse para llevarlo a una configuración diferente.
 
+
+
+## 3. Procedimiento detallado para realizar movimientos manuales, especificando cómo cambiar entre modos de operación (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
 
 
 
