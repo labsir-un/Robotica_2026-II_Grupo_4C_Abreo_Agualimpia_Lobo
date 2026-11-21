@@ -145,8 +145,6 @@ flowchart TD
 
 El plano de planta muestra la distribución de los elementos utilizados durante la práctica. Se debe indicar la ubicación del manipulador Motoman MH6, el riel lineal, el eje rotativo externo, el controlador DX100 y el computador desde el cual se realizó la programación y comunicación mediante RoboDK.
 
-![Plano de planta de la estación de trabajo](imagenes/plano_planta.png)
-
 
 
 9. Código desarrollado en RoboDK para ejecutar una trayectoria polar
